@@ -139,6 +139,12 @@ h4{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+h2{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+
+}
 
 
 /* Estilos para las categorías */
@@ -147,6 +153,14 @@ h4{
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
 }
+
+
+  /* When the 'active' class is added, the category becomes visible */
+  .category.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
 
 .category-item {
     background-color: #ffffff;
