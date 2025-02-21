@@ -13,6 +13,12 @@
     <img src="Escudo_de_La_Guardia_de_Jaén.svg.png" alt="Logo de mi empresa" class="logo">
     <h1>Guía de empresas - La Guardia de Jaén</h1>
 
+    <div class="search-bar">
+        <form action="buscar.html" method="get" onsubmit="return false;">
+            <input type="text" id="search" placeholder="Buscar por categorías..." onkeyup="searchCategories()">
+        </form>
+    </div>
+   </header> 
     <!-- Menú de navegación -->
     <nav>
         <ul class="menu">
@@ -39,14 +45,6 @@
             </li>
         </ul>
     </nav>
-
-    <div class="search-bar">
-        <form action="buscar.html" method="get" onsubmit="return false;">
-            <input type="text" id="search" placeholder="Buscar por categorías..." onkeyup="searchCategories()">
-        </form>
-    </div>
-   </header> 
-
    <main>
     <div class="category-grid">
         <a href="categorias/administracion.html" class="category-item">
