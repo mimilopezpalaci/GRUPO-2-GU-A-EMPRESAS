@@ -1,0 +1,19 @@
+        .business-list{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+            gap:2rem;
+        }
+        .business-card{
+            background-color: #cee4f5;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 1.5rem;
+            transition: transform 0.3s ease;
+            margin-top: 10px;
+        }
+        .business-card:hover{
+            transform:translateY(-5px);
+        }
+        header{
+            text-align: center;
+        }
