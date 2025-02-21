@@ -11,7 +11,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url("2.jpg");
+    background-image: url("5.jpg");
     height: 150px;
     color: #ffffff;
     padding: 10px 20px;
@@ -21,7 +21,7 @@ header {
 }
 
 .logo {
-    height: 100px;
+    height: 140px;
 }
 
 h1 {
@@ -29,7 +29,9 @@ h1 {
     font-size: 45px;
     flex-grow: 5;
     text-align: left;
-    color: #faeb7d;
+    padding-left: 50px;
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 5px 5px 5px rgba(3, 3, 3, 0.973);
 }
 
@@ -127,6 +129,18 @@ main {
     margin: 0 auto;
 }
 
+h4{
+    margin: 3;
+    font-size: 17px;
+    flex-grow: 5;
+    text-align: center;
+    color: #353434;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
 /* Estilos para las categorías */
 .category-grid {
     display: grid;
@@ -135,7 +149,7 @@ main {
 }
 
 .category-item {
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
@@ -154,5 +168,5 @@ main {
 }
 
 .category-item:hover .category-icon {
-    color: #007bff;
+    color: #4e99e9;
 }
