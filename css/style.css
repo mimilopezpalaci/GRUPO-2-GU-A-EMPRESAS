@@ -169,6 +169,7 @@ h2{
     padding: 1.5rem;
     text-align: center;
     transition: transform 0.3s ease;
+    color:#7c7a7a;
 }
 
 .category-item:hover {
