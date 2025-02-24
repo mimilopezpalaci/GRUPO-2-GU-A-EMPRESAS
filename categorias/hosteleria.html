@@ -11,9 +11,11 @@
 <body>
    <header>
     <h1>HOSTELERÍA</h1>
-    <div class="search-container">
-        <input type="text" id="search" placeholder="Buscar..." onkeyup="searchBusinesses()">
-        <button type="submit"><i class="fas fa-search"></i></button>
+    <div class="search-bar">
+        <form action="buscar.html" method="get" onsubmit="return false;">
+            <input type="text" id="search" placeholder="Busquedad por empresas..." onkeyup="searchCategories()">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
     </div>
    </header> 
    <nav aria-label="breadcrumb">

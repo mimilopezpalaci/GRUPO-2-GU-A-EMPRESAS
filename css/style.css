@@ -46,7 +46,7 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: left;
-    background-color: #aaa;
+    background-color: white;
 }
 
 nav ul li {
@@ -119,7 +119,7 @@ nav ul li a:hover {
 .search-bar button {
     padding: 7px 10px;
     border: none;
-    color: #fff;
+    color: #010101;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
 }
