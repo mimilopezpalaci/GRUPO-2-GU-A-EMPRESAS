@@ -1,6 +1,6 @@
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -31,7 +31,7 @@ h1 {
     text-align: left;
     padding-left: 50px;
     color: #ffffff;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     text-shadow: 5px 5px 5px rgba(3, 3, 3, 0.973);
 }
 
@@ -142,7 +142,7 @@ h4{
 h2{
     font-size: 25px;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-family: Arial, Helvetica, sans-serif ;
 
 }
 
@@ -169,7 +169,9 @@ h2{
     padding: 1.5rem;
     text-align: center;
     transition: transform 0.3s ease;
-    color:#7c7a7a;
+    color:#353434;
+    text-decoration: none;
+
 }
 
 .category-item:hover {
@@ -177,7 +179,7 @@ h2{
 }
 
 .category-icon {
-    font-size: 4rem;
+    font-size: 5rem;
     margin-bottom: 1rem;
     transition: color 0.3s ease;
 }
